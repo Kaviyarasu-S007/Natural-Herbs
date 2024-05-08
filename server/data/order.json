@@ -1,0 +1,31 @@
+[
+    {
+        "order_id": "1",
+        "order_bucket": {
+            "item1": 2,
+            "item2": 1,
+            "item3": 3
+        },
+        "cost": 150.25,
+        "address": "123 Main St, City, Country"
+    },
+    {
+        "order_id": "2",
+        "order_bucket": {
+            "item4": 1,
+            "item5": 2
+        },
+        "cost": 75.50,
+        "address": "456 Elm St, Town, Country"
+    },
+    {
+        "order_id": "3",
+        "order_bucket": {
+            "item6": 1,
+            "item7": 4,
+            "item8": 2
+        },
+        "cost": 200.00,
+        "address": "789 Oak St, Village, Country"
+    }
+]

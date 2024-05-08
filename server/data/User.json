@@ -1,0 +1,33 @@
+[
+    {
+      "_id": {
+        "$oid": "6638cf9f7f4ee230d4c62b07"
+      },
+      
+      "password": "password",
+      "email": "haran@gmail.com",
+      "name": "Hari",
+      "Phone_Number":7708919045
+    },
+    {
+      "_id": {
+        "$oid": "6638cf9f7f4ee230d4c62b09"
+      },
+    
+      "password": "password",
+      "email": "kavi@gmail.com",
+      "name": "Kavi",
+      "Phone_Number":7708919048
+    },
+    {
+      "_id": {
+        "$oid": "6638cf9f7f4ee230d4c62b06"
+      },
+      
+      "password": "password",
+      "email": "koushic@example.com",
+      "name": "shic",
+      "Phone_Number":7708919046
+    }
+  ]
+  

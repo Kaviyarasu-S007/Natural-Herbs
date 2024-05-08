@@ -1,0 +1,20 @@
+[
+    {
+        "product_id": "1",
+        "product_name": "Smartphone",
+        "product_price": 599.99,
+        "product_stock_left": 50
+    },
+    {
+        "product_id": "2",
+        "product_name": "Laptop",
+        "product_price": 999.99,
+        "product_stock_left": 20
+    },
+    {
+        "product_id": "3",
+        "product_name": "Headphones",
+        "product_price": 99.99,
+        "product_stock_left": 100
+    }
+]
