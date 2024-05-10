@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello, World!</h1>
-    </div>
-=======
 // App.js
 
 import React from 'react';
@@ -26,7 +18,7 @@ function App() {
         <Route path="/product" element={<productPage />} />
       </Routes>
     </Router>
->>>>>>> 1f9c1c357fbce3072991542908eb521a59946bad
+
   );
 }
 
