@@ -2,16 +2,15 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = require('./app');
 
-// Connect to the database
-mongoose.connect('mongodb://localhost:27017/project', {
-  // No options needed for the new URL format
+const mongoURI = "mongodb+srv://hariaws0510:vneN9nCXHl9lg4ZH@cluster0.fw6vyse.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+mongoose.connect(mongoURI, {
+  // Omit the useNewUrlParser and useUnifiedTopology options
 })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
 
-// Start the server
 const port = 3001;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
