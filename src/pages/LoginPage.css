@@ -96,10 +96,11 @@ input {
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: rgba(255, 255, 255, 0.3); 
     border-radius: 15px;
     margin-left: 40px;
+    height: 350px;
 }
 
 .title {
@@ -142,3 +143,35 @@ h5 {
     
 
 }
+
+.icons {
+    margin-left: 280px;
+    margin-top: -100px;
+
+}
+
+.google{
+    margin-left: -110px;
+    margin-top: -5px;
+}
+
+.facebook {
+    margin-left: 70px;
+    margin-top: -5px;
+}
+
+.twitter {
+    margin-left: 90px;
+    margin-top: -5px;
+}
+
+.icons h4 {
+    color: rgb(47, 40, 40);
+    font-weight: bold;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+

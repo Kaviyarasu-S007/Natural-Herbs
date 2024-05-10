@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/images/bg.jpg');
+    background-image: url('../assets/images/bg2.jpg');
     background-size: cover; 
     background-position: center;
     margin: 0;
@@ -92,7 +92,7 @@ input {
     }
 }
 
-.login {
+.sign {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -100,6 +100,7 @@ input {
     background-color: rgba(255, 255, 255, 0.3); 
     border-radius: 15px;
     margin-left: 40px;
+    height: 500px;
 }
 
 .title {
